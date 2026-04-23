@@ -1,4 +1,4 @@
-pipeline {
+iipeline {
     agent any
 
     stages {
@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/nileshwanare1/JenkinsWeb_repo.git'
+                    url: 'https://github.com/nileshwanare1/JenkinsRepo_WebAppDeploy.git'
             }
         }
 
